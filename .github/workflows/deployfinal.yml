@@ -33,7 +33,7 @@ jobs:
       uses: docker/build-push-action@v6
       with:
         push: true
-        tags: ghcr.io/byronmoreno/salchi:2.0.0
+        tags: ghcr.io/alisson/tomate:2.0.0
     
     - name: Pruebas de ssh con el servidor
       uses: appleboy/ssh-action@v1
