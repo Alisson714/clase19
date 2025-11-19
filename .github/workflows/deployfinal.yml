@@ -68,3 +68,4 @@ jobs:
             echo "Deployando los servicios"
 
             echo "${{secrets.GHCR_PATH }}" | docker login ghcr.io -u by docker pull ghcr.io/alissonvelez/salchi: 2.0.0
+            docker stack deploy --with registry-autn -c stack.yml quintob
